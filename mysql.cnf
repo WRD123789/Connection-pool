@@ -1,0 +1,12 @@
+# 数据库连接池的配置文件
+ip = 127.0.0.1
+port = 3306
+username = root
+password = 162738609
+dbName = test
+initSize = 10
+maxSize = 1024
+# 单位是 s
+maxIdleTime = 60
+# 单位是 ms
+connectionTimeOut = 100
